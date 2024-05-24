@@ -132,7 +132,7 @@
         display: none;
     }
     .navBarHamburgerIcon {
-        display: flex;
+        display: none;
         z-index: 1000;
         position: fixed;
         right: 10%;

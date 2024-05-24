@@ -117,6 +117,7 @@
     }
     .dynamicImage {
       flex-direction: column;
+      background-color: black;
     }
   
     .imageContainer {
