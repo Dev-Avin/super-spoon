@@ -112,6 +112,9 @@
   }
   
   @media (max-width: 800px) {
+    .dynamicBackground{
+        margin-top: -100px;
+    }
     .dynamicImage {
       flex-direction: column;
     }
@@ -126,6 +129,8 @@
   
     .dynamicImageText {
       width: 100%;
+      height: 50vh;
+      margin-top: 500px;
       padding: 20px;
       justify-content: center;
       align-items: center;
@@ -137,11 +142,20 @@
       width: 90%;
       margin: 10px 0;
     }
-  
+    .img2{
+        left: 140px;
+    }
+    .dynamicBackgroundTarget{
+     top: 50%;
+    }
     .dynamicImageText p {
       font-size: 1.2rem;
       width: 90%;
       margin: 10px 0;
     }
+    .downArrow{
+        margin-top: 200px;
+    }
+
   }
   

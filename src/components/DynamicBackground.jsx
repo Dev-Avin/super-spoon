@@ -11,7 +11,7 @@ const DynamicBackground = () => {
     target: container,
     offset: ['start start', 'end end'],
   });
-  const scale = useTransform(scrollYProgress, [0, 0.01, 0.1, 0.2 , 0.7 ,0.85, 0.9, 1], [0.5, 3, 12, 22 , 22 , 10, 5, 1]);
+  const scale = useTransform(scrollYProgress, [0, 0.01, 0.1, 0.2 , 0.3 , 0.7 ,0.85, 0.9, 1], [0.5, 3, 4 , 12, 22 , 22 , 10, 5, 0.5]);
 
   useEffect(() => {
     const img1 = img1Ref.current;
