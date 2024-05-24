@@ -53,7 +53,7 @@ export default function Cursor() {
     }, [])
 
     return (
-        <div className='relative h-screen'>
+        <div className='relative cursor h-screen'>
             <div 
                 ref={circle}
                 style={{

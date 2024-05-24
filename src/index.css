@@ -139,4 +139,7 @@
         position: fixed;
         right: 10%;
     }
+    .cursor{
+        display: none;
+    }
 }
