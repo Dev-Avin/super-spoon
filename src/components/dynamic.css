@@ -147,7 +147,7 @@
         left: 140px;
     }
     .dynamicBackgroundTarget{
-     top: 50%;
+     top: -50%;
     }
     .dynamicImageText p {
       font-size: 1.2rem;
