@@ -1,11 +1,13 @@
 * , body , html{
-    margin: 0%;
+    margin: 0;
     padding: 0;
 }
 .main{
     background-image: url("http://trx-effects.ancorathemes.com/wp-content/uploads/2021/04/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    overflow-x: hidden;
 }
 .navBar {
     display: flex;

@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Marqee from './components/Marquee'
 import DynamicBackground from './components/DynamicBackground'
+import Cursor from './components/Cursor'
+
 const App = () => {
+  const [isActive, setIsActive] = useState(false);
   return (
    <>
     <div className='main' >
     <Navbar/>
     <Hero/>
     <Marqee/>
+    <Cursor isActive={true}/>
     <DynamicBackground/>
     <div style={{height : "100vh"}} className='dynamicImage'>
           <div className='imageContainer'>
