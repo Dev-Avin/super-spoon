@@ -1,0 +1,147 @@
+.dynamicBackground {
+    width: 100vw;
+    height: 400vh;
+    display: flex;
+    z-index: 2;
+    background-color: white;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .dynamicContent {
+    position: absolute;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    font-family: "Alata", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1em;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .downArrow{
+    position: absolute ;
+    margin-top: 160px;
+    margin-left: -50px;
+  }
+  
+  .dynamicImage {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .imageContainer {
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContainer img {
+    width: 50%;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .imageContainer img.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .img1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  
+  .img2 {
+    position: absolute;
+    top: 70px;
+    left: 340px;
+  }
+  
+  .dynamicImageText {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .dynamicImageText h4 {
+    font-family: "Alata", sans-serif;
+    width: 70%;
+    font-size: 3rem;
+    line-height: 1em;
+    font-weight: 400;
+    margin: 10px 0;
+    height: 100%;
+    letter-spacing: -0.03em;
+  }
+  
+  .dynamicImageText p {
+    color: #FFFFFF99;
+    width: 70%;
+    margin: 10px 0;
+    font-family: "Alata", sans-serif;
+    font-size: 1rem;
+    line-height: 1em;
+    letter-spacing: -0.03em;
+  }
+  
+  .dynamicBackgroundTarget {
+    width: max(20vw, 20vh);
+    height: max(20vw, 20vh);
+    border-radius: 50%;
+    margin-top: 100px;
+    background-color: black;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+  }
+  
+  @media (max-width: 800px) {
+    .dynamicImage {
+      flex-direction: column;
+    }
+  
+    .imageContainer {
+      width: 100%;
+    }
+  
+    .imageContainer img {
+      width: 80%;
+    }
+  
+    .dynamicImageText {
+      width: 100%;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-left: -10px;
+    }
+  
+    .dynamicImageText h4 {
+      font-size: 2.2rem;
+      width: 90%;
+      margin: 10px 0;
+    }
+  
+    .dynamicImageText p {
+      font-size: 1.2rem;
+      width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
