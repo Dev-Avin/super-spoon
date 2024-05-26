@@ -67,6 +67,7 @@ export default function Cursor() {
                     mixBlendMode :'difference',
                     zIndex : '1000',
                     borderRadius: "50%",
+                    pointerEvents : "none"
                 }}
                             />
         </div>
